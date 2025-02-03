@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment1_AveryCuevas_KayvonWashington</string>
+    <string-array name="user_info">
+        <item>NAME</item>
+        <item>DEPARTMENT</item>
+        <item>YEAR</item>
+    </string-array>
+</resources>
