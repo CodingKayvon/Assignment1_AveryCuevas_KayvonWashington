@@ -4,4 +4,6 @@
     android:layout_height="match_parent"
     android:ellipsize="marquee"
     android:singleLine="true"
-    android:gravity="center_vertical" />
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp"
+    android:gravity="center" />

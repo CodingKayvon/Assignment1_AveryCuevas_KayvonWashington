@@ -46,10 +46,14 @@ class GradeActivity : AppCompatActivity() {
     // Letter grades based on score (given on the assignment)
     private fun getGrade(score: Int): String {
         return when {
-            score >= 90 -> "A"
-            score >= 80 -> "B"
-            score >= 70 -> "C"
-            score >= 60 -> "D"
+            score >= 94 -> "A"
+            score in 90..93 -> "A-"
+            score in 87..89 -> "B+"
+            score in 83..86 -> "B"
+            score in 80..82 -> "B-"
+            score in 77..79 -> "C+"
+            score in 73..76 -> "C"
+            score in 70..72 -> "C-"
             else -> "F"
         }
     }
